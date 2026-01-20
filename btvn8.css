@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.header {
+    background-color: #1a1a1a;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e0e0e0;
+    margin-left: 30px;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #d4af37;
+}
+
+.featured-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #000;
+    display: inline-block;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 10px;
+}
+
+.dish-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dish-card {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 15px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.overlay {
+    text-align: center;
+}
+
+.overlay h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.overlay .price {
+    color: #d4af37;
+    font-weight: bold;
+    font-size: 16px;
+}
